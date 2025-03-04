@@ -9,8 +9,8 @@
 
 body {
     font-family: 'Fantasy', Fantasy;
-    color: ff5733;
-    background-color: 403938;
+    color: #ff5733; /* Added # for color */
+    background-color: #403938; /* Added # for color */
     line-height: 1.6;
     padding: 0;
     margin: 0;
@@ -60,7 +60,7 @@ main {
 }
 
 main img {
-    max-width: 100%;
+    max-width: 80%; /* Reduced max-width to 80% */
     height: auto;
     display: block;
     margin: 20px 0;
@@ -151,4 +151,3 @@ main a[href^="mailto:"] {
         padding: 10px;
     }
 }
-
