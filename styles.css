@@ -9,8 +9,8 @@
 
 body {
     font-family: 'Fantasy', Fantasy;
-    color: #ff5733; /* Added # for color */
-    background-color: #403938; /* Added # for color */
+    color: #ff5733;
+    background-color: #403938;
     line-height: 1.6;
     padding: 0;
     margin: 0;
@@ -60,10 +60,10 @@ main {
 }
 
 main img {
-    max-width: 80%; /* Reduced max-width to 80% */
+    max-width: 60%; /* Further reduced max-width */
     height: auto;
     display: block;
-    margin: 20px 0;
+    margin: 15px auto; /* Centered images */
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
@@ -121,21 +121,6 @@ main a[href^="mailto:"] {
 }
 
 /* Media Queries for Responsiveness */
-@media screen and (max-width: 20px) {
-    header h1 {
-        font-size: 2rem;
-    }
-
-    nav a {
-        font-size: 1rem;
-        margin: 0 8px;
-    }
-
-    main {
-        padding: 15px;
-    }
-}
-
 @media screen and (max-width: 480px) {
     header h1 {
         font-size: 1.6rem;
@@ -150,4 +135,9 @@ main a[href^="mailto:"] {
     main {
         padding: 10px;
     }
+
+    main img {
+        max-width: 50%; /* Further reduced size for smaller screens */
+    }
 }
+
